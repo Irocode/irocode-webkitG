@@ -1,0 +1,11 @@
+{
+  "name": "Irocode-webkit",
+  "version": "1.0.0",
+  "description": "Irocode-webkit",
+  "main": "index.html",
+  "private": "true",
+  "dependencies": {
+    "jquery": "~2.2.3",
+	 "bootstrap": "~3.3.6"
+  }
+}
