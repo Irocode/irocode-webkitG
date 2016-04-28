@@ -1,0 +1,360 @@
+/*General START*/
+ footer {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #fff;
+    background-color: #003871;
+} 
+ #footer-orf a {
+    color: #fff; 
+    text-decoration: none;     
+
+}
+#footer-orf a:hover, 
+#footer-orf a:focus,
+#footer-orf a.active {
+    text-decoration: none;
+    color: #dc000c;
+}
+#footer-orf .email a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+#footer-orf .email a:hover,
+#footer-orf .email a:focus,
+#footer-orf .email a.active {
+    text-decoration: none;
+    color: #dc000c;
+    font-weight: bold;
+}
+/*General END*/
+/*Mobile and Desktop Footer*/
+@media (max-width: 767px) { 
+    .sidemap a,
+    .impressum a {
+        font-size: 14px!important;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .footer-padding {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .impressum { text-align: left!important }
+    .separated {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #fff;
+    }
+    .footer-head {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+    .abstand { padding: 10px }
+    .address h4,
+    .billaddress h4 {
+        font-size: 14px !important;
+        padding-top: 5px;
+    }
+    .sidemap { text-align: left }
+    .impressum { text-align: right }
+    .sidemap,
+    .impressum {
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+        .sidemap ul {
+            margin-left: 0px;
+            text-align: left;
+            float: left;
+            padding-left: 0px;
+        }
+        .sidemap ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+}
+@media (max-width: 435px) { 
+    .sidemap,
+    .impressum {
+        font-size: 12px!important;
+        color: #fff;
+        text-transform: uppercase;
+    }
+        .sidemap a,
+        .impressum a {
+            font-size: 12px!important;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    .separated {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #fff;
+    }
+}
+@media (min-width: 768px) and (max-width: 1048px) { 
+    .footer-padding {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .billaddress {
+        text-align: left;
+        width: 100%;
+    }
+    .floatbox-footer {
+        text-align: right!important;
+        float: right!important;
+        padding-left: 0px;
+        padding: 0px!important;
+        margin: 0px!important;
+        width: 245px;
+    }
+    .separated {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #fff;
+    }
+    .footer-head {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .footer-text {
+        font-size: 14px;
+    }
+    .sidemap { text-align: left }
+    .impressum { text-align: right }
+    .sidemap,
+    .impressum {
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+        .sidemap ul {
+            margin-left: 0px;
+            text-align: left;
+            float: left;
+            padding-left: 0px;
+        }
+        .sidemap ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+}
+@media (min-width: 1049px) and (max-width: 1204px) { 
+    .footer-padding {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .billaddress {
+        text-align: left;
+        width: 100%;
+    }
+    .floatbox-footer {
+        text-align: right!important;
+        float: right!important;
+        padding-left: 0px;
+        padding: 0px!important;
+        margin: 0px!important;
+        width: 275px;
+    }
+    .separated {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #fff;
+    }
+    .footer-head {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+    .sidemap { text-align: left }
+    .impressum { text-align: right }
+    .sidemap,
+    .impressum {
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+        .sidemap ul {
+            margin-left: 0px;
+            text-align: left;
+            float: left;
+            padding-left: 0px;
+        }
+        .sidemap ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+}
+@media (min-width: 1205px) and (max-width: 1399px) { 
+    .footer-padding {
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+    .billaddress {
+        text-align: left;
+        width: 500px;
+    }
+    .floatbox-footer {
+        text-align: right!important;
+        float: right!important;
+        padding-left: 0px;
+        padding: 0px!important;
+        margin: 0px!important;
+        width: 275px;
+    }
+    .separated {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #fff;
+    }
+    .footer-head {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+    .sidemap { text-align: left }
+    .impressum { text-align: right }
+    .sidemap,
+    .impressum {
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+        .sidemap ul {
+            margin-left: 0px;
+            text-align: left;
+            float: left;
+            padding-left: 0px;
+        }
+        .sidemap ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+}
+@media (min-width: 1400px) { 
+    .footer-padding {
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+    .billaddress {
+        text-align: left;
+        width: 100%;
+    }
+    .floatbox-footer {
+        text-align: right!important;
+        float: right!important;
+        padding-left: 0px;
+        padding: 0px!important;
+        margin: 0px!important;
+        width: 275px;
+    }
+    .separated {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #fff;
+    }
+    .footer-head {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+    .sidemap { text-align: left }
+    .impressum { text-align: right }
+    .sidemap,
+    .impressum {
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+        .sidemap ul {
+            margin-left: 0px;
+            text-align: left;
+            float: left;
+            padding-left: 0px;
+        }
+        .sidemap ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+}
+/*Scroll to Top*/
+@media (min-width: 1200px) { 
+    .scrollup {
+        position: fixed;
+        z-index: 20;
+        right: 2px;
+        bottom: 140px;
+        display: none;
+        width: 95px;
+        height: 102px;
+        text-indent: -9999px;
+        background: url('../img/front/icon_top_big.png') no-repeat;
+    }
+    .scrollup:hover {
+        position: fixed;
+        z-index: 21;
+        right: 2px;
+        bottom: 140px;
+        display: none;
+        width: 95px;
+        height: 102px;
+        text-indent: -9999px;
+        background: url('../img/front/icon_top_start_big.png') no-repeat;
+    }
+}
+/*Scroll to Top*/
+@media (max-width: 1199px) { 
+    .scrollup {
+        position: fixed;
+        z-index: 20;
+        right: 2px;
+        bottom: 140px;
+        display: none;
+        width: 35px;
+        height: 38px;
+        text-indent: -9999px;
+        background: url('../img/front/icon_top_small.png') no-repeat;
+    }
+    .scrollup:hover {
+        position: fixed;
+        z-index: 21;
+        right: 2px;
+        bottom: 140px;
+        display: none;
+        width: 35px;
+        height: 38px;
+        text-indent: -9999px;
+        background: url('../img/front/icon_top_start_small.png') no-repeat;
+    }
+}
+/*Scroll to Top*/

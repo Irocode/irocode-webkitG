@@ -1,0 +1,824 @@
+/*General START*/
+ h1 {
+    /*Crop CSS*/ 
+  }           
+  
+ #tv-sender-orfeins h2 {
+    color: #fed51c !important;
+    font-family: $font-family-heading;
+    font-size: 22px !important;
+    text-align: left;
+}
+#tv-sender-orfeins h2.section-heading {
+    position: relative;
+    display: block;
+    font-weight: 300;
+    font-size: 1em!important;
+    letter-spacing: 1px;
+    color: #aaaaaa !important;
+    text-align: center;
+    text-transform: uppercase;
+    background: url(../img/icons/line-aaaaaa.png) center center repeat-x;
+    padding: 0 !important;
+    margin: 18px auto 15px auto !important;
+    font-family: $font-family-heading;
+}
+#tv-sender-orfeins h2.section-heading span {
+    display: inline-block;
+    width: 170px;
+    height: 46px;
+    line-height: 50px;
+    background: #f4f4f4;
+    margin: 0 auto;
+    border: 1px solid #aaaaaa;
+    box-shadow: -54px 0 0 #f4f4f4, 54px 0 0 #f4f4f4;
+    font-family: $font-family-heading;
+}
+#tv-sender-orfeins p {
+    font-size: 16px!important;
+    color: #333;
+    text-align: left;
+    line-height: 1.20;
+}
+#tv-sender-orfeins h2.section-heading.tv span {
+    color: #AAAAAA;
+}
+
+.orf-icon-gray {
+    margin-top: 5px;
+    margin-right: 15px;
+}
+#mega-three-wrapper,
+.mega-two-wrapper,
+#mega-one-wrapper,
+{
+    position: relative;   
+    z-index: 1;
+}
+#fluid-white-container {
+    position: relative;
+    left: 0;
+    background: #fff;
+    min-height: 20px;
+    width: 100%;
+    z-index: 0;
+}
+
+#fluid-grey-container {
+    position: relative;
+    left: 0;
+    background: #f4f4f4;
+    min-height: 20px;
+    width: 100%;
+    z-index: 0;
+}
+
+#fluid-grey {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: #f4f4f4!important;
+    min-height: 80px;
+    width: 100%;
+    z-index: -1;
+}
+/*Box Controll START*/
+
+@media (min-width: 0px) and (max-width: 767px) {
+    #mega-one-wrapper {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    #mega-two-wrapper {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    #mega-three-wrapper {
+        padding-right: 30px!important;
+        padding-left: 30px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+       #mega-one-wrapper {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #mega-two-wrapper {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    #mega-three-wrapper {
+        padding-right: 25px!important;
+        padding-left: 25px!important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+    /*ignore desktop telnr */
+      #tv-sender-orfeins a.tel-responsive {     
+     text-decoration:none;
+     color:#0f1f5d!important; 
+     pointer-events: none;
+     cursor: default;
+      }
+
+    #mega-one-wrapper {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #mega-two-wrapper {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    #mega-three-wrapper {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .padding-img-left {
+        padding-left: 40px;
+    }
+    .padding-img-middle {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    .padding-img-right {
+        padding-right: 40px;
+    }
+}
+@media (min-width: 1200px) {
+    #mega-one-wrapper {
+        padding-right: 65px!important;
+        padding-left: 65px!important;
+    }
+    #mega-two-wrapper {
+        padding-right: 65px!important;
+        padding-left: 65px!important;
+    }
+    .padding-img-left {
+        padding-left: 50px;
+    }
+    .padding-img-middle {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .padding-img-right {
+        padding-right: 50px;
+    }
+    #mega-three-wrapper {}
+}
+/*Box Controll END*/
+/*General END*/
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .container.mobile-tesaer-orf1 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #wrapp-left-right {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #wrapp-left-right-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }      
+    .custom-tooltip {
+        width: auto;
+        padding: 40px 20px 35px 30px!important;
+        margin: 20px 0px 20px 0px;
+        border: 1px solid #d7d7d7;
+        min-height: 10px;
+        background: #fff;
+    }
+    .custom-tooltip .tooltip-nummer {
+        float: left;
+        color: #008eaa;
+        font-weight: 600;
+        font-size: 7.5em;
+        line-height: 1;
+        margin: 3px 16px 40 0;
+    }
+    .custom-tooltip .tooltip-nummer sup {
+        font-size: 120%;
+    }
+    .field-items .field-item.even {
+        padding-top: 3px;
+    }
+    #right-inner {
+        background-color: #fff;
+        overflow: hidden;
+        margin: 10px;
+        min-height: 170px;
+        height: 100%
+    }
+    .container-sender-top {
+        margin-top: 20px;
+    } 
+    #abteilungs_member {
+        background: #fff;
+        border: 0px solid #ccc;
+        font-size: 14px;
+        margin-bottom: 50px;
+        min-height: 100px;
+        padding-left: -20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding: 0px;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }  
+    #tv-sender-orfeins img.img-circle {
+        position: absolute;
+        z-index: 2;
+        top: -41px;
+        margin-left: -30px;
+        max-width: 120px;
+        height: auto;
+        border: solid 1px #d8d8d8;
+        background-color: #eed;      
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Box Control Leitspruch Start*/
+    
+    #dreierbox-leitspruch .padding-img-left {
+        padding-left: 5px;
+    }
+    #dreierbox-leitspruch .padding-img-middle {
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    #dreierbox-leitspruch .padding-img-right {
+        padding-right: 0px;
+    }
+    #dreierbox-leitspruch .toolbox-control {
+        padding-right: 0px;
+    }
+    /*Box Control Leitspruch End*/
+    
+    .custom-tooltip {
+        width: auto;
+        padding: 40px 20px 35px 30px!important;
+        margin: 20px 8px 20px 10px;
+        border: 1px solid #d7d7d7;
+        min-height: 10px;
+        background: #fff;
+    }
+    .custom-tooltip .tooltip-nummer {
+        float: left;
+        color: #008eaa;
+        font-weight: 600;
+        font-size: 7.5em;
+        line-height: 1;
+        margin: 3px 16px 0 0;
+    }
+    .custom-tooltip .tooltip-nummer sup {
+        font-size: 120%;
+    }
+    .field-items .field-item.even {
+        padding-top: 3px;
+    }
+    #tv-sender-orfeins img.img-circle {
+        position: absolute;
+        z-index: 2;
+        max-width: 121px;
+        margin-top: 21px;
+        margin-left: 6px;
+        height: auto;
+        border: solid 1px #d8d8d8;
+        /*
+        background-color: #eed;
+        -moz-box-shadow: 7px 0px 7px #c2c2c2;
+        -webkit-box-shadow: 7px 0px 7px #c2c2c2;
+        -o-box-shadow: 7px 0px 7px #c2c2c2;
+        box-shadow: 7px 0px 7px #c2c2c2;
+        border-radius: 100px;
+        */
+    }
+}
+@media (min-width: 992px) and (max-width: 1048px) {
+    /*Box Control Leitspruch Start*/
+    
+    #dreierbox-leitspruch .padding-img-left {
+        padding-left: 40px;
+    }
+    #dreierbox-leitspruch .padding-img-middle {
+        padding-left: 40px;
+        padding-right: 15px;
+    }
+    #dreierbox-leitspruch .padding-img-right {
+        padding-right: 40px;
+    }
+    #dreierbox-leitspruch .toolbox-control {
+        padding-right: 40px;
+    }
+    /*Box Control Leitspruch End*/
+    
+    .custom-tooltip {
+        width: auto;
+        padding: 50px 20px 35px 20px;
+        border: 1px solid #d7d7d7;
+        min-height: 20px;
+        background: #fff;
+    }
+    .custom-tooltip .tooltip-nummer {
+        float: left;
+        color: #008eaa;
+        font-weight: 600;
+        font-size: 7.5em;
+        line-height: 1;
+        margin: 3px 16px 0 0;
+    }
+    .custom-tooltip .tooltip-nummer sup {
+        font-size: 120%;
+        padding: 40px 20px 35px 20px;
+    }
+    .field-items .field-item.even {
+        padding-top: 5px;
+    }
+    #right-inner {
+        background-color: #fff;
+        overflow: hidden;
+        margin: 10px;
+        min-height: 170px;
+        height: 100%
+    }
+    .img-circle {
+        max-width: 121px;
+        margin-top: 50px;
+        margin-left: -3px;
+        height: auto;
+        border: solid 1px #d8d8d8;   
+    }
+}
+@media (min-width: 1049px) and (max-width: 1199px) {
+    /*ignore desktop telnr */
+      #tv-sender-orfeins a.tel-responsive {     
+     text-decoration:none;
+     color:#0f1f5d!important; 
+     pointer-events: none;
+     cursor: default;
+      }
+    /*Box Control Leitspruch Start*/
+    
+    #dreierbox-leitspruch .padding-img-left {
+        padding-left: 40px;
+    }
+    #dreierbox-leitspruch .padding-img-middle {
+        padding-left: 40px;
+        padding-right: 15px;
+    }
+    #dreierbox-leitspruch .padding-img-right {
+        padding-right: 40px;
+    }
+    #dreierbox-leitspruch .toolbox-control {
+        padding-right: 40px;
+    }
+    /*Box Control Leitspruch End*/
+    
+    .custom-tooltip {
+        width: auto;
+        padding: 40px 20px 35px 20px;
+        border: 1px solid #d7d7d7;
+        min-height: 20px;
+        background: #fff;
+    }
+    .custom-tooltip .tooltip-nummer {
+        float: left;
+        color: #008eaa;
+        font-weight: 600;
+        font-size: 7.5em;
+        line-height: 1;
+        margin: 4px 16px 0 0;
+    }
+    .custom-tooltip .tooltip-nummer sup {
+        font-size: 120%;
+        padding: 40px 20px 35px 20px;
+    }
+    .field-items .field-item.even {
+        padding-top: 5px;
+    }
+    #right-inner {
+        background-color: #fff;
+        overflow: hidden;
+        margin: 10px;
+        min-height: 170px;
+        height: 100%
+    }
+    .img-circle {
+        max-width: 136px;
+        margin-top: 25px;
+        margin-left: -7px;
+        height: auto;
+        border: solid 1px #d8d8d8;   
+    }
+}
+@media (min-width: 1200px) {
+
+         /*ignore desktop telnr */
+      #tv-sender-orfeins a.tel-responsive {     
+     text-decoration:none;
+     color:#0f1f5d!important; 
+     pointer-events: none;
+     cursor: default;
+      } 
+    .custom-tooltip {
+        width: auto;
+        padding: 40px 20px 35px 20px;
+        border: 1px solid #d7d7d7;
+        min-height: 20px;
+        background: #fff;
+    }
+    .custom-tooltip .tooltip-nummer {
+        float: left;
+        color: #008eaa;
+        font-weight: 600;
+        font-size: 7.5em;
+        line-height: 1;
+        margin: 8px 16px 100px 0;
+    }
+    .custom-tooltip .tooltip-nummer sup {
+        font-size: 120%;
+        padding: 40px 20px 35px 20px;
+    }
+    .field-items .field-item.even {
+        padding-top: 5px;
+    }
+    #right-inner {
+        background-color: #fff;
+        overflow: hidden;
+        margin: 10px;
+        min-height: 170px;
+        height: 100%
+    }
+    .img-circle {
+        max-width: 154px;
+        margin-top: 15px;
+        height: auto;
+        border: solid 1px #d8d8d8;    
+    }
+}
+@media (min-width: 1400px) {
+
+
+    /*ignore desktop telnr */
+      #tv-sender-orfeins a.tel-responsive {     
+     text-decoration:none;
+     color:#0f1f5d!important; 
+     pointer-events: none;
+     cursor: default;
+      } 
+
+    .container.mobile-tesaer-orf1 {
+        padding-left: 0px;
+        padding-right: 40px!important;
+    }
+}
+
+/*Table START*/
+@media (max-width: 767px) {
+    #orf-table h2 {
+        border-top: 1px solid #d4d4d4;
+        font-family: $font-family-heading;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        padding: 10px;
+        color: #fff!important;
+        background-color: #008EAA;
+        font-size: 13px;
+    }
+    .table > thead > tr > th,
+    .table > tbody > tr > th,
+    .table > tfoot > tr > th,
+    .table > thead > tr > td,
+    .table > tbody > tr > td,
+    .table > tfoot > tr > td 
+    {
+        
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #d7d7d7;
+        background: #fff;
+        font-family: $font-family-heading;
+        font-size: 13px;
+         font-size: 13px; 
+        padding-left:18px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        padding-top: 8px;
+    }
+    .head-tbl{
+    margin-left:15px!important; 
+} 
+#orf-table p {
+    color: #333;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 10px;
+}
+}
+
+@media (min-width: 768px) {
+    #orf-table h2 {
+        border-top: 1px solid #d4d4d4;
+        font-family: $font-family-heading;
+        margin-top: 0px;
+        margin-bottom: 5px;       
+        color: #fff!important;
+        background-color: #008EAA;
+        font-size: 16px;
+        padding-left:18px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        padding-top: 8px;
+    }
+    .table > thead > tr > th,
+    .table > tbody > tr > th,
+    .table > tfoot > tr > th,
+    .table > thead > tr > td,
+    .table > tbody > tr > td,
+    .table > tfoot > tr > td {
+        
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #d7d7d7;
+        background: #fff;
+        font-family: $font-family-heading;
+        font-size: 16px; 
+        padding-left:18px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        padding-top: 8px;
+    }
+    .head-tbl{
+    margin-left:15px!important; 
+} 
+#orf-table p {
+    color: #333;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 10px;
+}
+}
+
+#orf-table {
+    background: #fff;
+}
+#orf-table table.table.table-hover tbody tr td.serie {
+    text-transform: uppercase;
+   
+    }
+
+#orf-table .table-bottom-border {
+    border: 1px solid #008EAA;
+}
+.table-hover thead tr:hover th,
+.table-hover tbody tr:hover td {
+    background-color: #008EAA;
+    color: #fff;
+}
+.table-hover thead tr:focus th,
+.table-hover tbody tr:focus td {
+    background-color: #008EAA;
+    color: #fff;
+}
+/*Table END*/
+
+/*Info or Hinweis START*/
+@media (max-width: 599px) {
+    #orf-infobox p,
+    #orf-hinweisbox p {
+        text-align: left;
+        position: relative;
+        top: 5px;
+        padding: 12px;
+        color: #2c2323 !important;
+        font-size: 13px!important;
+    }
+    .hinweis h3 {
+        text-align: center;
+        position: relative;
+        top: 12px;
+        color: #008EAA !important;
+        text-transform: uppercase;
+    }
+    .info h3 {
+        text-align: center;
+        position: relative;
+        top: 10px;
+        color: #dc000c !important;
+        text-transform: uppercase;
+    }
+}
+@media (min-width: 600px) {
+    #orf-infobox p,
+    #orf-hinweisbox p {
+        text-align: left;
+        position: relative;
+        top: 5px;
+        padding: 20px;
+        color: #2c2323 !important;
+        font-size: 14px!important;
+    }
+    .hinweis h3 {
+        text-align: center;
+        position: relative;
+        top: 15px;
+        color: #008EAA !important;
+        text-transform: uppercase;
+    }
+    .info h3 {
+        text-align: center;
+        position: relative;
+        top: 15px;
+        color: #dc000c !important;
+        text-transform: uppercase;
+    }
+}
+.box {
+    width: 80%;
+    height: 200px;
+    background: #FFF;
+    margin: 20px auto;
+    border-bottom: 2px solid #008EAA;
+    border-top: 1px solid #d7d7d7;
+}
+.box-info {
+    border-bottom: 2px solid #dc000c;
+}
+.effect7 {
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before,
+.effect7:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    border-radius: 100px / 10px;
+}
+.effect7:after {
+    right: 10px;
+    left: auto;
+    transform: skew(8deg) rotate(3deg);
+}
+.effect5 {
+    position: relative;
+}
+.effect5:before,
+.effect5:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    box-shadow: 0 35px 20px #777;
+    transform: rotate(-8deg);
+}
+.effect5:after {
+    transform: rotate(8deg);
+    right: 10px;
+    left: auto;
+}
+/*Info or Hinweis START*/
+
+/*Accordion START*/
+#orf-accordion h3{
+    font-family: $font-family-heading;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #0f1f5d!important;
+}
+#orf-accordion h3:hover,
+#orf-accordion h3:focus,
+#orf-accordion h3:active,
+#orf-accordion h3.panel-title.active
+{
+    font-family: $font-family-heading;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #dc000c!important;
+}
+
+.panel {     
+    border: 1px solid #d7d7d7!important;    
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .0)!important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .0)!important;
+}
+
+
+#orf-accordion .accordion-headline {
+    border-top: 1px solid #d4d4d4;
+    font-family: $font-family-heading;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: #fff;
+    background-color: #008EAA;
+    font-size: 18px;
+}
+#orf-accordion .accordion-bottom-border {
+    border: 1px solid #008EAA;
+    margin-top: -20px;
+}
+#orf-accordion h2 {
+    border-top: 1px solid #d4d4d4;
+    font-family: $font-family-heading;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: #fff!important;
+    background-color: #008EAA;
+    font-size: 18px;
+}
+#orf-accordion .panel-title {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: $font-family-heading;
+    font-size: 16px;
+    color: inherit;   
+    padding-top:10px;
+    padding-bottom: 10px; 
+}
+
+.panel-heading {    
+    padding-top:0!important;
+    padding-bottom: 0!important;
+}
+
+#orf-accordion .panel-heading {
+    padding: 10px 15px;
+    font-family: $font-family-heading;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+}
+.panel-title .orf-icon.orf-icon-up.pull-right, .panel-title .orf-icon.orf-icon-down.pull-right {
+    margin-top: 6px;   
+}
+
+#orf-accordion .orf-icon-up:before {    
+    content: "";  
+    
+}
+#orf-accordion .orf-icon-down:before {
+     content: "";
+}
+.panel-body {border-top: 0 !important;
+ border-radius: 0px!important;
+}
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+border-radius: 0px!important;  
+}
+
+/*Accordion END*/
+.box-download {
+
+    &__headline {
+        border-top: 1px solid #d4d4d4;
+        font-family: $font-family-heading;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        padding: 10px;
+        color: #fff;
+        background-color: #008EAA;
+        font-size: 18px;
+    }
+
+    &__text {
+        border-bottom: 2px solid #008EAA;
+        padding: 0;
+    }
+
+    ul {
+        list-style: none;
+        margin: 10px;
+    }
+
+    li {
+        margin: .65em 0;
+    }
+
+    a {
+        color: #333;
+    }
+
+    .orf-icon {
+        float: none !important;
+        margin: 0 .5em 0 0;
+        vertical-align: middle;
+    }
+
+}

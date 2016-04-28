@@ -4,23 +4,23 @@
   "description": "SASS-Livereload-Uglifyjs",
   "main": "index.html",
   "private": "true",
-  "dependencies": {
+  "dependencies": {  
     "gulp": "~3.9.1",
-    "gulp-uglifyjs": "~0.4.2",   
+	 "gulp-sass": "^2.3.1",
+    "gulp-uglifyjs": "~0.6.2",   
     "gulp-plumber": "~0.6.4",
     "gulp-util": "^3.0.0",
     "gulp-livereload": "~2.1.0",
     "gulp-notify": "^1.5.0",
     "gulp-imagemin": "^1.0.1", 
-    "make-beep": "^0.0.1"
-   
+    "make-beep": "^0.0.1",
+	"gulp-image-resize": "^0.8.0",
+	 "gulp-task-listing": "^1.0.1",	 
+	 "gulp-sourcemaps": "^2.0.0-alpha"	
 	
   },
   "devDependencies": {       
-  "gulp-image-resize": "^0.8.0",
-	 "gulp-task-listing": "^1.0.1",
-	  "gulp-sass": "^2.3.1",
-	   "gulp-sourcemaps": "^2.0.0-alpha"
+
 	
   }
 }

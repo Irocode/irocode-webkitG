@@ -2,14 +2,14 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var plumber = require('gulp-plumber');
 var uglify = require('gulp-uglifyjs');
-var sass = require('gulp-sass');
 var livereload = require('gulp-livereload');
 var imagemin = require('gulp-imagemin');
 var makeBeep = require('make-beep');
 var notify = require("gulp-notify");
 var imageResize  = require("gulp-image-resize");
-var sourcemaps = require('gulp-sourcemaps');
 var taskListing = require('gulp-task-listing');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////
 //////////     ERROR
@@ -55,18 +55,22 @@ gulp.task('uglifyjs', function() {
 
 // Sass
 gulp.task('sass', function() {
+
     return gulp.src([
         './scss/app.scss'
     ])
+    .pipe(sourcemaps.init())  
     .pipe(plumber({
         errorHandler: onError
     }))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    /*
     .pipe(sass({
         style: 'compressed',
         cacheLocation: './cache/.sass-cache'
         
     }))
-    .pipe(sourcemaps.init())  
+    */
     .pipe(sourcemaps.write())
 
     .pipe(gulp.dest('./css/'))

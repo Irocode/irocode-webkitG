@@ -1,0 +1,106 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////
+//////////    Fonts
+//////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.FFMetaWebProNormal { 
+    font-family: FFMetaWebPro;
+    font-weight: normal;
+    font-style: normal;
+}
+.FFMetaWebProBold { 
+    font-family: FFMetaWebPro;
+    font-weight: bold;
+    font-style: normal;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////
+//////////     Head
+//////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@font-face {
+  font-family: 'FFMetaWebPro';
+  src: url('../fonts/ffmeta/webfonts/307537_0_0.eot');
+  src: url('../fonts/ffmeta/webfonts/307537_0_0.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ffmeta/webfonts/307537_0_0.woff2') format('woff2'),
+       url('../fonts/ffmeta/webfonts/307537_0_0.woff') format('woff'),
+       url('../fonts/ffmeta/webfonts/307537_0_0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FFMetaWebPro';
+  src: url('../fonts/ffmeta/webfonts/307537_1_0.eot');
+  src: url('../fonts/ffmeta/webfonts/307537_1_0.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ffmeta/webfonts/307537_1_0.woff2') format('woff2'),
+       url('../fonts/ffmeta/webfonts/307537_1_0.woff') format('woff'),
+       url('../fonts/ffmeta/webfonts/307537_1_0.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////
+//////////    Content
+//////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@font-face {font-family: 'OrfOn';
+  src: url('../fonts/orf-f/eot/OrfOn-Regular.eot');
+  src: url('../fonts/orf-f/eot/OrfOn-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orf-f/woff/OrfOn-Regular.woff') format('woff'),
+       url('../fonts/orf-f/ttf/OrfOn-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} 
+  
+@font-face {font-family: 'OrfOn';
+  src: url('../fonts/orf-f/otf/eot/OrfOn-Bold.eot');
+  src: url('../fonts/orf-f/otf/eot/OrfOn-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/orf-f/woff/OrfOn-Bold.woff') format('woff'),
+       url('../fonts/orf-f/ttf/OrfOn-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////
+//////////     Icons
+//////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@font-face {
+  font-family: 'orficons';
+  src: url('../fonts/linearicons/font/fontello.eot?71705919');
+  src: url('../fonts/linearicons/font/fontello.eot?71705919#iefix') format('embedded-opentype'),
+       url('../fonts/linearicons/font/fontello.woff?71705919') format('woff'),
+       url('../fonts/linearicons/font/fontello.ttf?71705919') format('truetype'),
+       url('../fonts/linearicons/font/fontello.svg?71705919#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mq-retina: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)", ~"only screen and (min-resolution: 144dpi)";
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////
+//////////     Font-Default
+//////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,800");
+$OpenSans: "Open Sans", sans-serif;
+$Arial: Arial, Helvetica, sans-serif;
+$Cambria: Cambria, Georgia, serif;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////
+//////////     FontConfig
+//////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$font-family-normal: 'OrfOn', Helvetica, Arial, sans-serif;
+$font-family-heading: 'FFMetaWebPro', Helvetica, Arial, sans-serif;
+$font-family-icons: 'orficons';
